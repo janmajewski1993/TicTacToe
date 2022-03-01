@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tic Tac Toe</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<script
+			src="https://kit.fontawesome.com/eeec7a3436.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="starting-page">
+				<h1>Tic Tac Toe</h1>
+				<p>Select your symbol:</p>
+				<div class="starting-page__buttons">
+					<button
+						id="X"
+						class="button starting-page__buttons-item starting-page__buttons-item--X"
+					>
+						Player "X"
+					</button>
+					<button
+						class="button starting-page__buttons-item starting-page__buttons-item--O"
+					>
+						Player "O"
+					</button>
+				</div>
+			</div>
+			<div class="board-page">
+				<h2>Tic Tac Toe</h2>
+				<p class="subtitle">Let's get ready to rumble!</p>
+				<p class="player"></p>
+				<div class="grid-container">
+					<button class="grid-container__item"></button>
+					<button class="grid-container__item"></button>
+					<button class="grid-container__item"></button>
+					<button class="grid-container__item"></button>
+					<button class="grid-container__item"></button>
+					<button class="grid-container__item"></button>
+					<button class="grid-container__item"></button>
+					<button class="grid-container__item"></button>
+					<button class="grid-container__item"></button>
+				</div>
+				<button class="button reset">reset</button>
+			</div>
+			<div class="winner-page">
+				<h3 class="winner-page__player">Player win the game!</h3>
+				<div>
+					<button class="button reset">Play Again</button>
+				</div>
+			</div>
+		</div>
+		<script src="./scripts/scripts.js"></script>
+	</body>
+</html>
